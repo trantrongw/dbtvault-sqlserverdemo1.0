@@ -1,0 +1,10 @@
+version: 2
+
+sources:
+  - name: Staging
+    database: dev
+    schema: Staging
+    tables:
+      - name: Contoso__dbo__Sales
+      - name: Contoso__dbo__Customer
+      - name: Contoso__dbo__Products
